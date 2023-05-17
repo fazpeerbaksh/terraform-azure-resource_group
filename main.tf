@@ -1,4 +1,4 @@
-main.tfresource "random_pet" "rg_name" {
+resource "random_pet" "rg_name" {
   prefix = var.resource_group_name_prefix
 }
 
